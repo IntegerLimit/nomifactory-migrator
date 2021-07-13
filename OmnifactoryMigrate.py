@@ -43,6 +43,6 @@ def copyFiles(old_path,new_path):
     else:
         shutil.copyfile(os.path.join(old_path,'config','jei','bookmarks.ini'), os.path.join(new_path,'config','jei','bookmarks.ini'))
 
-copyFiles(old_path,new_path)
 print("Copying Files...\n")
+copyFiles(old_path,new_path)
 print("Copy Complete!\n")
