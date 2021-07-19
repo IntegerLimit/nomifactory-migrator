@@ -8,7 +8,7 @@ import shutil
 print("Before you continue, make sure you have imported the new instance in MultiMC from the zip file first!\n")
 
 old_path=input("Enter the path to the old version's minecraft folder.\n")
-new_path=input("Enter the path to the old version's minecraft folder.\n")
+new_path=input("Enter the path to the new version's minecraft folder.\n")
 
 
 #This will take the important folders/files recommended on the Omnifactory GitHub and copy them to the new instance folder.
@@ -43,6 +43,6 @@ def copyFiles(old_path,new_path):
     else:
         shutil.copyfile(os.path.join(old_path,'config','jei','bookmarks.ini'), os.path.join(new_path,'config','jei','bookmarks.ini'))
 
-copyFiles(old_path,new_path)
 print("Copying Files...\n")
+copyFiles(old_path,new_path)
 print("Copy Complete!\n")
