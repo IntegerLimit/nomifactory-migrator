@@ -21,14 +21,12 @@ def copyFiles(old_path,new_path):
         shutil.rmtree(os.path.join(new_path,'resourcepacks'))
     shutil.copytree(os.path.join(old_path,'resourcepacks'), os.path.join(new_path,'resourcepacks'))
     
-    os.remove(os.path.join(new_path,'options.txt'))
     shutil.copyfile(os.path.join(old_path,'options.txt'), os.path.join(new_path,'options.txt'))
     
     if os.path.exists(os.path.join(new_path,'journeymap')):
         shutil.rmtree(os.path.join(new_path,'journeymap'))
     shutil.copytree(os.path.join(old_path,'journeymap'), os.path.join(new_path,'journeymap'))
     
-    os.remove(os.path.join(new_path,'config','jei','bookmarks.ini'))
     shutil.copyfile(os.path.join(old_path,'config','jei','bookmarks.ini'), os.path.join(new_path,'config','jei','bookmarks.ini'))
 
 print("Copying Files...\n")
