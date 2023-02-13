@@ -1,5 +1,5 @@
-# omnifactory-migrator
-This script will migrate save data and other important files between development versions of the Omnifactory modpack found here: https://github.com/OmnifactoryDevs/Omnifactory
+# Nomifactory-migrator
+This script will migrate save data and other important files between development versions of the Nomifactory and Nomifactory CEu modpacks. Original repo: https://github.com/capSAR273/omnifactory-migrator.
 
 **How to Use:**
 Open the .ps script with Powershell, and follow the prompts. If using the Python script, open it using a terminal and follow the prompts.
