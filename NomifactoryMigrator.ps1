@@ -2,7 +2,7 @@
 #This script will help move important folders from one instance of the pack to another, saving you time!
 #Original Author: capSAR273, updated author, IntegerLimit, if you have any questions or issues you can contact me on GitHub (Or on the Nomifactory Discord)!
 
-Write-Host "Before you continue, make sure you have imported the new instance in your preferred launcher from the zip file first!"
+Write-Host "Before you continue, make sure you have imported the new instance in your preferred launcher from the CurseForge, or a zip file, first!"
 
 $oldPath = Read-Host -Prompt "Enter the path to the old version's minecraft folder."
 $newPath = Read-Host -Prompt "Enter the path to the new version's minecraft folder."
