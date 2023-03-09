@@ -5,7 +5,7 @@ import os
 from os import path
 import shutil
 
-print("Before you continue, make sure you have imported the new instance in MultiMC from the zip file first!\n")
+print("Before you continue, make sure you have imported the new instance in your preffered launcher from CurseForge, or a zip file, first!\n")
 
 old_path=os.path.expanduser(input("Enter the path to the old version's minecraft folder.\n"))
 new_path=os.path.expanduser(input("Enter the path to the new version's minecraft folder.\n"))
