@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 #Nomifactory or Nomifactory CEu Migrate Script
 #This script will help move important folders from one instance of the pack to another, saving you time!
 #Original Author: capSAR273, updated author, IntegerLimit, if you have any questions or issues you can contact me on GitHub (Or on the Nomifactory Discord)!
