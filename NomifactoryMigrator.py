@@ -27,6 +27,10 @@ def copyFiles(old_path,new_path):
     if os.path.exists(os.path.join(new_path,'journeymap')):
         shutil.rmtree(os.path.join(new_path,'journeymap'))
     shutil.copytree(os.path.join(old_path,'journeymap'), os.path.join(new_path,'journeymap'))
+
+    if os.path.exists(os.path.join(new_path,'visualores')):
+        shutil.rmtree(os.path.join(new_path,'visualores'))
+    shutil.copytree(os.path.join(old_path,'visualores'), os.path.join(new_path,'visualores'))
     
     shutil.copyfile(os.path.join(old_path,'hei_bookmarks.ini'), os.path.join(new_path,'hei_bookmarks.ini'))
 
