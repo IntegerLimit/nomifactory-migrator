@@ -14,6 +14,7 @@ Copy-Item $oldPath\saves -Destination $newPath -Recurse
 Copy-Item $oldPath\resourcepacks -Destination $newPath -Recurse
 Copy-Item $oldPath\options.txt -Destination $newPath -Recurse
 Copy-Item $oldPath\journeymap -Destination $newPath -Recurse
+Copy-Item $oldPath\visualores -Destination $newPath -Recurse
 Copy-Item $oldPath\hei_bookmarks.ini -Destination $newPath -Recurse
 
 Write-Host "Copy Complete!"
